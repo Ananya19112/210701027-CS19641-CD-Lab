@@ -64,7 +64,7 @@ printf("\nMov R%d,%s",reg,var[vc-1]);
 preg[reg].alive=1;
 }
 op=basic[j][strlen(var[vc-1])];
-210701033 – ARAVIND S
+210701027 – ANANYA N
 substring(basic[j],strlen(var[vc-1])+1,strlen(basic[j]));
 getvar(basic[j],var[vc++]);
 switch(op)
